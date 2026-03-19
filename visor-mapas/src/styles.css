@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss';
+@import "primeflex/primeflex.css";
+@import "ol/ol.css";
+:root {
+  --primary: #062c54;
+  --secondary: #e56e0d;
+  --background: #f5f7fb;
+  --panel: #ffffff;
+}

@@ -1,0 +1,11 @@
+/* Color institucional */
+.bg-primary {
+  background: linear-gradient(90deg, #062c54, #0a3d73);
+}
+
+
+/* Evitar conflictos con OpenLayers */
+.ol-control button {
+  all: revert;
+}
+

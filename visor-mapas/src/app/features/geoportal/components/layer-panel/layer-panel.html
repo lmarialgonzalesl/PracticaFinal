@@ -1,0 +1,8 @@
+<p-panel header="Capas">
+  <p-listbox
+    [options]="layers"
+    [(ngModel)]="selectedLayer"
+    optionLabel="name"
+    (onChange)="toggleLayer($event)">
+  </p-listbox>
+</p-panel>
